@@ -33,7 +33,7 @@ img {
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url(frontPage.jpeg)no-repeat 50% 50%;
+    background: url(https://user-images.githubusercontent.com/99650682/175031356-6be115bb-037b-4862-ba7a-ca5ae512885a.jpeg)no-repeat 50% 50%;
     background-size: cover;
     display: table;
     top: 0;
@@ -80,7 +80,7 @@ nav:hover ul {
 #menu-icon {
     width: 30px;
     height: 26px;
-    background: url(https://www.bing.com/th?id=OIP.AFiWYEHYQ7hzNGXYfamNOwHaHa&pid=3.1&cb=&w=300&h=300&p=0) center;
+    background: url(https://user-images.githubusercontent.com/99650682/175031662-e006ea64-33c7-4512-b615-9ee3189f6366.jpg) center;
     display: inline-block;
     margin: 50px 0 0 50px;
 }
