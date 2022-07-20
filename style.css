@@ -65,7 +65,7 @@ nav ul, nav:active ul {
     padding: 8px 0;
     width: 20%;
     left: 45px;
-    top: 19%;
+    top: 10%;
     z-index: 1000;
 }
 nav li {
@@ -75,16 +75,31 @@ nav li {
 }
 nav:hover ul {
     display: block;
-    position: absolute;
+    position: fixed;
 }
-#menu-icon {
+/* #menu-icon { 
     width: 30px;
     height: 26px;
     font-size:50px;
-    /* background: url(https://user-images.githubusercontent.com/99650682/175031662-e006ea64-33c7-4512-b615-9ee3189f6366.jpg) center; */
+    /* background: url(https://user-images.githubusercontent.com/99650682/175031662-e006ea64-33c7-4512-b615-9ee3189f6366.jpg) center; 
     display: inline-block;
     margin: 50px 0 0 50px;
 }
+*/
+#menu-btn{
+    position: fixed;
+    top:1.5rem; left: 2rem;
+    z-index: 1000;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+    color:black;
+}
+
 /*------------------End Nav---------------------*/
 
 .left-col {
